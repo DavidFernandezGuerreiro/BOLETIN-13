@@ -15,6 +15,7 @@ public class ConversorTemperaturas{
     }
     
     public void centigradosAFharenheit() throws NosaExcepcion{
+        System.out.println("CONVERSIÓN GRADOS CENTIGRADOS A FARENHEIT :");
         System.out.println("Introduzca grados centigrados: ");
         float gcentigrados=sc.nextFloat();
         if(gcentigrados<gcentigradosC)
