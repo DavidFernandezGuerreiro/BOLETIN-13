@@ -34,7 +34,8 @@ public class ConversorTemperaturas{
             System.out.println("*** VOLVA A INTENTALO : ***");
             gcentigrados=sc.nextFloat();
             greamur=(float) (4.0/5.0*gcentigrados);
-            System.out.println("Grados Reamur = "+greamur);
+            
         }
+        System.out.println("Grados Reamur = "+greamur);
     }
 }
