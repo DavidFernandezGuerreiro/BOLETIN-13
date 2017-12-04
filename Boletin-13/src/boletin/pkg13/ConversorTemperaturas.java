@@ -26,6 +26,7 @@ public class ConversorTemperaturas{
     }
     
     public void centígradosAReamur() throws NosaExcepcion{
+        System.out.println("CONVERSIÓN GRADOS CENTIGRADOS A REAMUR :");
         System.out.println("Introduzca grados centigrados: ");
         float gcentigrados=sc.nextFloat();
         if(gcentigrados<gcentigradosC)
